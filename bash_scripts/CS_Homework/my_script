@@ -1,0 +1,27 @@
+1. HIDE
+
+#!/bin/bash
+
+mv $1 .$1
+
+2. MULTIPLY
+
+#! /bin/bash
+
+echo "Enter your first number: "
+read num1
+echo "Enter your second number: "
+read num2
+
+num3=`expr $num1 \* $num2`
+echo "$num1 X $num2 = $num3"
+
+3. SEARCH
+
+#!/bin/bash
+
+grep --color -i -n -w $2 $1
+
+LINK FOR THE YOUTOUBE
+
+https://youtu.be/ngH1tpF31J0

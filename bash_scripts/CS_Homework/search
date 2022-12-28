@@ -1,0 +1,3 @@
+#!/bin/bash
+
+grep --color -i -n -w $2 $1
